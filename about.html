@@ -8,23 +8,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/fbf.css" />
+  <style>
+    .btn-primary, a.btn-primary, .nav a.btn-primary {
+      background: #1a4568 !important;
+      color: #ffffff !important;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="index.html">
-        <img src="logo.jpg" alt="French Broad Financial" />
+        <img src="logo.jpg" alt="French Broad Financial" width="40" height="40" />
         <span>
           <span class="brand-name">French Broad Financial</span>
           <span class="brand-sub">Financial Operations Advisory</span>
         </span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
+        <a class="" href="index.html">Home</a>
+        <a class="" href="services.html">Services</a>
         <a class="active" href="about.html">About</a>
-        <a class="btn btn-primary" href="contact.html">Get in touch</a>
+        <a class="btn btn-primary" href="contact.html" style="color:#ffffff;background:#1a4568">Get in touch</a>
       </nav>
       <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-label="Open menu">☰</button>
     </div>
@@ -32,7 +38,7 @@
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="about.html">About</a>
-      <a class="btn btn-primary" href="contact.html">Get in touch</a>
+      <a class="btn btn-primary" href="contact.html" style="color:#ffffff;background:#1a4568">Get in touch</a>
     </nav>
   </header>
 
@@ -44,9 +50,8 @@
         <p>French Broad Financial is a boutique financial operations advisory firm serving small and mid-sized businesses—especially across Western North Carolina’s French Broad River region.</p>
       </div>
     </section>
-
     <section class="section">
-      <div class="wrap about-grid" style="display:grid;gap:2.25rem;align-items:start">
+      <div class="wrap about-grid" style="gap:2.25rem;align-items:start">
         <div>
           <div class="photo"><img src="tyler.jpg" alt="Tyler Easterbrook" /></div>
           <div class="card paper" style="margin-top:1rem">
@@ -75,13 +80,12 @@
         </div>
       </div>
     </section>
-
-    <section class="section" style="background:color-mix(in oklab, var(--bg-subtle) 60%, transparent);border-block:1px solid var(--border)">
+    <section class="section" style="background:rgb(230 220 200 / 0.45);border-block:1px solid var(--border)">
       <div class="wrap">
         <p class="eyebrow">Who we serve</p>
         <h2 class="display-md" style="max-width:34rem;margin-top:0.7rem">Growing companies that need more than bookkeeping.</h2>
         <p class="muted" style="max-width:40rem">Typical clients are businesses with roughly 10–100 employees and about $2M–$50M in revenue.</p>
-        <div class="grid-2" style="margin-top:2rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))">
+        <div class="grid-2" style="margin-top:2rem">
           <article class="card paper"><h3>Integrity</h3><p class="muted">Straight answers about what the financials show—and what they don’t.</p></article>
           <article class="card paper"><h3>Accuracy</h3><p class="muted">Numbers that reconcile, processes that hold up, documentation that lasts.</p></article>
           <article class="card paper"><h3>Practical solutions</h3><p class="muted">Recommendations sized for real teams—not enterprise theater.</p></article>
@@ -89,7 +93,6 @@
         </div>
       </div>
     </section>
-
     <section class="section">
       <div class="wrap ink" style="border-radius:1rem;padding:2.25rem 1.5rem">
         <h2 class="display-md">Ready for a straightforward conversation?</h2>
@@ -98,12 +101,11 @@
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
         <strong class="brand-name">French Broad Financial</strong>
-        <p style="color:var(--on-ink-muted)">Practical financial leadership for small and mid-sized businesses.</p>
+        <p style="color:var(--on-ink-muted)">Practical financial leadership for small and mid-sized businesses. Cleaner numbers. Stronger controls. Better decisions.</p>
       </div>
       <div>
         <div class="eyebrow" style="color:var(--on-ink-muted)">Explore</div>
@@ -116,6 +118,7 @@
       <div>
         <div class="eyebrow" style="color:var(--on-ink-muted)">Contact</div>
         <p><a href="mailto:tyler.easterbrook@frenchbroadfinancial.com" style="color:var(--on-ink-muted)">tyler.easterbrook@frenchbroadfinancial.com</a></p>
+        <p style="color:var(--on-ink-muted)">French Broad River region, Western North Carolina</p>
       </div>
     </div>
     <div class="wrap fine">
