@@ -1,150 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About | French Broad Financial</title>
-  <meta name="description" content="Learn about Tyler Easterbrook and French Broad Financial — practical financial leadership for growing businesses.">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="logo.jpg" type="image/jpeg">
+  <meta name="description" content="Meet Tyler Easterbrook and the mission behind French Broad Financial." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo-link">
-        <img src="logo.jpg" alt="French Broad Financial" class="logo-img">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="logo.jpg" alt="French Broad Financial" />
+        <span>
+          <span class="brand-name">French Broad Financial</span>
+          <span class="brand-sub">Financial Operations Advisory</span>
+        </span>
       </a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav').classList.toggle('open')">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
         <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <a class="active" href="about.html">About</a>
+        <a class="btn btn-primary" href="contact.html">Get in touch</a>
       </nav>
+      <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-label="Open menu">☰</button>
     </div>
+    <nav class="mobile-nav wrap" data-mobile>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="btn btn-primary" href="contact.html">Get in touch</a>
+    </nav>
   </header>
 
-  <section class="section">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-image">
-          <img src="tyler.jpg" alt="Tyler Easterbrook" class="headshot">
-          <p style="color: var(--gray-600); font-size: 0.95rem; margin-top: 1rem;">Western North Carolina</p>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">About</p>
+        <h1 class="display" style="margin-top:0.7rem">Built for owners who need to trust their numbers.</h1>
+        <p>French Broad Financial is a boutique financial operations advisory firm serving small and mid-sized businesses—especially across Western North Carolina’s French Broad River region.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap about-grid" style="display:grid;gap:2.25rem;align-items:start">
+        <div>
+          <div class="photo"><img src="tyler.jpg" alt="Tyler Easterbrook" /></div>
+          <div class="card paper" style="margin-top:1rem">
+            <strong>Tyler Easterbrook</strong>
+            <div class="muted">Founder</div>
+            <a href="mailto:tyler@frenchbroadfinancial.com" style="color:var(--primary)">tyler@frenchbroadfinancial.com</a>
+          </div>
         </div>
-        <div class="about-content">
-          <h1>Tyler Easterbrook</h1>
-          <p class="subtitle">Founder</p>
-          
-          <p>Tyler brings more than nine years of experience across treasury, financial reporting, and accounting operations. He has led teams and built processes in both Fortune 500 and high-growth environments, with deep expertise in cash management, forecasting, internal controls, and ERP implementations.</p>
-
-          <p>His background includes:</p>
-          <ul>
-            <li>Treasury leadership supporting complex trust and operating accounts</li>
-            <li>Multi-entity accounting and consolidations (including 800+ global entities)</li>
-            <li>Month-end close ownership and financial reporting</li>
-            <li>ERP transitions (QuickBooks → Oracle Cloud, SAP → Sage → NetSuite)</li>
-            <li>Cash forecasting, liquidity planning, and credit line management</li>
-            <li>Building formal controls, playbooks, and reconciliation frameworks</li>
+        <div>
+          <h2 class="display-md">Founder</h2>
+          <p class="muted">Tyler brings accounting leadership experience spanning ERP implementation, intercompany accounting, consolidations, treasury, and management of year-end external audits—alongside people leadership in hiring, coaching, and mentoring finance teams.</p>
+          <p class="muted">French Broad Financial was built around a simple idea: most growing companies don’t have “bad accounting.” They have incomplete, undocumented, or misaligned accounting for the stage they’re entering.</p>
+          <p class="muted">The work focuses on controller-level cleanup, process design, and practical financial leadership—so owners can stop firefighting the books and start managing with clearer information.</p>
+          <h3 class="eyebrow" style="margin-top:1.75rem">Background includes</h3>
+          <ul class="pills">
+            <li>ERP implementation & process design</li>
+            <li>Intercompany accounting & consolidations</li>
+            <li>Treasury & cash operations</li>
+            <li>Year-end external audit management</li>
+            <li>Hiring, coaching, and mentoring finance teams</li>
           </ul>
-
-          <p>Tyler holds a Master of Accountancy and a Bachelor of Science in Business Administration (Accounting, magna cum laude) from Western Carolina University.</p>
-
-          <div class="credentials">
-            <span class="credential">Master of Accountancy</span>
-            <span class="credential">Western Carolina University</span>
-            <span class="credential">9+ Years Experience</span>
-            <span class="credential">Fortune 500 &amp; High-Growth</span>
+          <div class="card paper" style="margin-top:1.5rem;background:var(--primary-soft)">
+            <h3>Mission</h3>
+            <p class="muted">Provide practical financial leadership that improves accounting accuracy, strengthens internal controls, and gives business owners confidence in their financial reporting.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2>About French Broad Financial</h2>
-        <p>Practical financial leadership for growing businesses</p>
+    <section class="section" style="background:color-mix(in oklab, var(--bg-subtle) 60%, transparent);border-block:1px solid var(--border)">
+      <div class="wrap">
+        <p class="eyebrow">Who we serve</p>
+        <h2 class="display-md" style="max-width:34rem;margin-top:0.7rem">Growing companies that need more than bookkeeping.</h2>
+        <p class="muted" style="max-width:40rem">Typical clients are businesses with roughly 10–100 employees and about $2M–$50M in revenue.</p>
+        <div class="grid-2" style="margin-top:2rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))">
+          <article class="card paper"><h3>Integrity</h3><p class="muted">Straight answers about what the financials show—and what they don’t.</p></article>
+          <article class="card paper"><h3>Accuracy</h3><p class="muted">Numbers that reconcile, processes that hold up, documentation that lasts.</p></article>
+          <article class="card paper"><h3>Practical solutions</h3><p class="muted">Recommendations sized for real teams—not enterprise theater.</p></article>
+          <article class="card paper"><h3>Client partnership</h3><p class="muted">Clear communication, transparent scope, and work that transfers ownership back to you.</p></article>
+        </div>
       </div>
-      <div style="max-width: 720px; margin: 0 auto; text-align: center;">
-        <p style="margin-bottom: 1.1rem; color: var(--gray-700);">French Broad Financial provides practical financial leadership for growing businesses. We offer outsourced accounting operations, treasury management, process improvement, and financial diagnostics for small and mid-sized companies.</p>
-        
-        <p style="margin-bottom: 1.1rem; color: var(--gray-700);">Our mission is simple: help business owners trust their financial information so they can make better decisions.</p>
+    </section>
 
-        <p style="color: var(--gray-700);">Every engagement begins by understanding the business — reviewing the Profit &amp; Loss statement, Balance Sheet, account reconciliations, cash flow, and the processes behind the numbers.</p>
+    <section class="section">
+      <div class="wrap ink" style="border-radius:1rem;padding:2.25rem 1.5rem">
+        <h2 class="display-md">Ready for a straightforward conversation?</h2>
+        <p style="color:var(--on-ink-muted);max-width:32rem">No pitch deck theater. Just a clear discussion about whether cleanup, process work, or ongoing advisory is the right fit.</p>
+        <a class="btn btn-ivory" href="contact.html">Contact →</a>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section class="section section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2>Core Values</h2>
-        <p>How we show up for every client engagement.</p>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong class="brand-name">French Broad Financial</strong>
+        <p style="color:var(--on-ink-muted)">Practical financial leadership for small and mid-sized businesses.</p>
       </div>
-      <div class="cards">
-        <div class="card">
-          <h3>Integrity</h3>
-          <p>Honest assessment of where things stand and what needs to improve.</p>
-        </div>
-        <div class="card">
-          <h3>Accuracy</h3>
-          <p>Numbers that reflect reality and can be relied on by leadership.</p>
-        </div>
-        <div class="card">
-          <h3>Practical Solutions</h3>
-          <p>Improvements that reduce manual effort and increase reliability — not theory.</p>
-        </div>
-        <div class="card">
-          <h3>Transparency</h3>
-          <p>Clear communication about findings, priorities, and progress.</p>
-        </div>
-        <div class="card">
-          <h3>Professional Excellence</h3>
-          <p>Controller- and CFO-level discipline applied to growing businesses.</p>
-        </div>
-        <div class="card">
-          <h3>Client Partnership</h3>
-          <p>We work alongside owners and teams, not above them.</p>
-        </div>
+      <div>
+        <div class="eyebrow" style="color:var(--on-ink-muted)">Explore</div>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--on-ink-muted)">Contact</div>
+        <p><a href="mailto:tyler@frenchbroadfinancial.com" style="color:var(--on-ink-muted)">tyler@frenchbroadfinancial.com</a></p>
       </div>
     </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <img src="logo.jpg" alt="French Broad Financial" class="logo-img">
-          <p>Practical financial leadership for growing businesses. We help owners trust their numbers so they can make better decisions.</p>
-        </div>
-        <div>
-          <h4>Navigate</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:tyler.easterbrook@frenchbroadfinancial.com">tyler.easterbrook@frenchbroadfinancial.com</a></li>
-            <li><a href="tel:5174105566">517-410-5566</a></li>
-            <li>Western North Carolina</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2026 French Broad Financial. All rights reserved.
-      </div>
+    <div class="wrap fine">
+      <p>© 2026 French Broad Financial LLC. All rights reserved.</p>
+      <p>Controller-level advisory · Not a CPA firm · Not an audit firm</p>
     </div>
   </footer>
-
   <script src="js/main.js"></script>
 </body>
 </html>

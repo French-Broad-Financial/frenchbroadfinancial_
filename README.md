@@ -1,3 +1,5 @@
 # frenchbroadfinancial
-website for french broad financial
-Connected to Cloudflare
+
+Website for French Broad Financial LLC.
+
+Static HTML served by Cloudflare Pages from this repository.

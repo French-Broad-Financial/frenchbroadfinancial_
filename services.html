@@ -1,127 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Services | French Broad Financial</title>
-  <meta name="description" content="Financial Health Reviews, Accounting Operations Support, Treasury & Cash Management, Process Documentation, Cleanup Projects, and Internal Controls for growing businesses.">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="logo.jpg" type="image/jpeg">
+  <meta name="description" content="Financial health reviews, cleanup projects, accounting operations support, treasury, process documentation, and internal controls." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo-link">
-        <img src="logo.jpg" alt="French Broad Financial" class="logo-img">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="logo.jpg" alt="French Broad Financial" />
+        <span>
+          <span class="brand-name">French Broad Financial</span>
+          <span class="brand-sub">Financial Operations Advisory</span>
+        </span>
       </a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav').classList.toggle('open')">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a href="index.html">Home</a>
+        <a class="active" href="services.html">Services</a>
         <a href="about.html">About</a>
-        <a href="services.html" class="active">Services</a>
-        <a href="contact.html">Contact</a>
-        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <a class="btn btn-primary" href="contact.html">Get in touch</a>
       </nav>
+      <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-label="Open menu">☰</button>
     </div>
+    <nav class="mobile-nav wrap" data-mobile>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="btn btn-primary" href="contact.html">Get in touch</a>
+    </nav>
   </header>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Services</h2>
-        <p>Controller- and CFO-level financial leadership delivered in a practical, flexible way. We support audit readiness but do not perform or sign audit engagements.</p>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Services</p>
+        <h1 class="display" style="margin-top:0.7rem">Financial operations support that improves accuracy and confidence.</h1>
+        <p>Outsourced accounting operations, treasury support, cleanup projects, and financial diagnostics for growing companies. We support audit readiness—but we do not perform or sign audits.</p>
       </div>
+    </section>
 
-      <div class="service-list">
-        <div class="service-item">
-          <div class="service-number">1</div>
-          <div>
-            <h3>Financial Health Reviews</h3>
-            <p>A clear, structured look at your Profit &amp; Loss, Balance Sheet, account reconciliations, cash flow, and the processes behind the numbers. You leave with a realistic picture of where things stand and prioritized recommendations.</p>
-          </div>
-        </div>
-
-        <div class="service-item">
-          <div class="service-number">2</div>
-          <div>
-            <h3>Accounting Operations Support</h3>
-            <p>Hands-on help stabilizing and improving day-to-day accounting operations — close processes, reconciliations, reporting accuracy, and the workflows that keep the books clean and decision-ready.</p>
-          </div>
-        </div>
-
-        <div class="service-item">
-          <div class="service-number">3</div>
-          <div>
-            <h3>Treasury &amp; Cash Management</h3>
-            <p>Cash forecasting, liquidity planning, banking controls, and stronger oversight of funds flow. Designed for businesses that need reliable visibility into cash without building a full internal treasury function.</p>
-          </div>
-        </div>
-
-        <div class="service-item">
-          <div class="service-number">4</div>
-          <div>
-            <h3>Financial Process Documentation</h3>
-            <p>Clear documentation of key financial processes so your team (and any future hires or advisors) can operate consistently. Reduces key-person risk and makes improvements stick.</p>
-          </div>
-        </div>
-
-        <div class="service-item">
-          <div class="service-number">5</div>
-          <div>
-            <h3>Cleanup &amp; Stabilization Projects</h3>
-            <p>Targeted projects to clean up the books, resolve long-standing issues, strengthen reconciliations, and put sustainable processes in place so the numbers can be trusted going forward.</p>
-          </div>
-        </div>
-
-        <div class="service-item">
-          <div class="service-number">6</div>
-          <div>
-            <h3>Internal Controls &amp; Risk Reviews</h3>
-            <p>Practical review of internal controls and financial risk points. We identify gaps, strengthen oversight, and help create an environment that supports accurate reporting and audit readiness.</p>
-          </div>
-        </div>
+    <section class="section">
+      <div class="wrap grid-2">
+        <article class="card paper">
+          <h2>Financial health reviews</h2>
+          <ul class="check">
+            <li>P&L, balance sheet, and cash flow walkthrough</li>
+            <li>Reconciliation and process gap assessment</li>
+            <li>Clear priorities: what to fix first and why</li>
+          </ul>
+        </article>
+        <article class="card paper">
+          <h2>Cleanup & stabilization projects</h2>
+          <ul class="check">
+            <li>Historical financial cleanup</li>
+            <li>Cash-to-accrual conversions that reflect operations</li>
+            <li>Inventory, COGS, and margin normalization</li>
+            <li>Balance sheet substantiation and documentation</li>
+          </ul>
+        </article>
+        <article class="card paper">
+          <h2>Accounting operations support</h2>
+          <ul class="check">
+            <li>Month-end close design and oversight</li>
+            <li>Reporting packages owners can actually use</li>
+            <li>Fractional controller support on a defined scope</li>
+          </ul>
+        </article>
+        <article class="card paper">
+          <h2>Treasury & cash management</h2>
+          <ul class="check">
+            <li>Cash visibility and forecasting discipline</li>
+            <li>Working capital and payment process review</li>
+            <li>Controls around cash movement and approvals</li>
+          </ul>
+        </article>
+        <article class="card paper">
+          <h2>Process documentation</h2>
+          <ul class="check">
+            <li>Close checklists and recurring calendars</li>
+            <li>Role clarity between bookkeeper, owner, and advisor</li>
+            <li>Handoff-ready SOPs so results are repeatable</li>
+          </ul>
+        </article>
+        <article class="card paper">
+          <h2>Internal controls & risk reviews</h2>
+          <ul class="check">
+            <li>Practical control design for SMB scale</li>
+            <li>Segregation of duties where it matters most</li>
+            <li>Audit and diligence readiness support</li>
+          </ul>
+        </article>
       </div>
+    </section>
 
-      <div class="text-center mt-2" style="margin-top: 3rem;">
-        <p style="color: var(--gray-600); margin-bottom: 1.25rem;">Engagements are structured as fixed-fee assessments, fixed-fee cleanup projects, or recurring monthly advisory retainers.</p>
-        <a href="contact.html" class="btn btn-primary btn-lg">Discuss Your Needs</a>
+    <section class="ink">
+      <div class="wrap section">
+        <p class="eyebrow" style="color:var(--on-ink-muted)">Engagement models</p>
+        <h2 class="display-md">Scoped work. Clear commercial terms.</h2>
+        <div class="grid-3" style="margin-top:2rem">
+          <article class="glass"><h3>Fixed-fee assessments</h3><p style="color:var(--on-ink-muted)">Time-boxed diagnostics that produce a clear picture and a prioritized plan.</p></article>
+          <article class="glass"><h3>Project cleanups</h3><p style="color:var(--on-ink-muted)">Defined scope, defined deliverables. Ideal before a loan, audit, sale, or growth stage.</p></article>
+          <article class="glass"><h3>Monthly advisory retainers</h3><p style="color:var(--on-ink-muted)">Ongoing controller-level support for close, reporting, and operational questions.</p></article>
+        </div>
+        <p style="margin-top:1.75rem"><a class="btn btn-ivory" href="contact.html">Discuss the right model →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong class="brand-name">French Broad Financial</strong>
+        <p style="color:var(--on-ink-muted)">Practical financial leadership for small and mid-sized businesses.</p>
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--on-ink-muted)">Explore</div>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--on-ink-muted)">Contact</div>
+        <p><a href="mailto:tyler@frenchbroadfinancial.com" style="color:var(--on-ink-muted)">tyler@frenchbroadfinancial.com</a></p>
       </div>
     </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <img src="logo.jpg" alt="French Broad Financial" class="logo-img">
-          <p>Practical financial leadership for growing businesses. We help owners trust their numbers so they can make better decisions.</p>
-        </div>
-        <div>
-          <h4>Navigate</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:tyler.easterbrook@frenchbroadfinancial.com">tyler.easterbrook@frenchbroadfinancial.com</a></li>
-            <li><a href="tel:5174105566">517-410-5566</a></li>
-            <li>Western North Carolina</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2026 French Broad Financial. All rights reserved.
-      </div>
+    <div class="wrap fine">
+      <p>© 2026 French Broad Financial LLC. All rights reserved.</p>
+      <p>Controller-level advisory · Not a CPA firm · Not an audit firm</p>
     </div>
   </footer>
-
   <script src="js/main.js"></script>
 </body>
 </html>
