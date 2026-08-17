@@ -142,7 +142,7 @@ button, .btn { cursor: pointer; font-family: inherit; }
   font-weight: 650;
   font-size: 0.95rem;
 }
-.btn-primary { background: var(--primary); color: #faf6ed; }
+.btn-primary { background: var(--primary); color: #ffffff; }
 .btn-primary:hover { background: var(--primary-hover); }
 .btn-ivory { background: var(--bg-elevated); color: var(--ink); }
 .btn-ivory:hover { background: var(--bg); }
